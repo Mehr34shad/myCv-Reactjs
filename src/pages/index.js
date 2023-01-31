@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import Script from 'next/script'
-
+// import showMenu from '@/utils/showMenu'
 
 export default function Home() {
 
@@ -20,12 +20,12 @@ export default function Home() {
       <meta property="og:title" content="مهرشاد مرادشان" />
       {/* <!-- ===style=== --> */}
       <link rel="icon" href="/favicon.ico" />
-
+      {/* <script type="text/javascript" src="../../public/js/main.js"></script> */}
       {/* <!-- =====BOX ICONS===== --> */}
       {/* <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'/> */}
     </Head>
     <div>
-      {'{'}/* {/*===== HEADER =====*/} */{'}'}
+   {/*===== HEADER =====*/}
       <header className="l-header">
         <nav className="nav bd-grid">
           <div> <a href="#" className="nav__logo">Mehrshad</a> </div>
@@ -155,8 +155,13 @@ export default function Home() {
       {/* <!--===== SCROLL REVEAL =====--> */}
       {/* <Script src="https://unpkg.com/scrollreveal"/> */}
 
-      {/* <!--===== MAIN JS =====--> */}
-      {/* <Script src="../../js/main.js"/> */}
+     {/* <!--===== MAIN JS =====-->  */}
+     {/* <script src="/main.js"></script> */}
+     <Script>
+  {`
+  navLink.forEach(n => n.addEventListener('click', linkAction)); const sr = ScrollReveal({ origin: 'top', distance: '80px', duration: 2000, reset: !0 }); sr.reveal('.home__title', {}); sr.reveal('.button', { delay: 200 }); sr.reveal('.home__img', { delay: 400 }); sr.reveal('.home__social-icon', { interval: 200 }); sr.reveal('.about__img', {}); sr.reveal('.about__subtitle', { delay: 400 }); sr.reveal('.about__text', { delay: 400 }); sr.reveal('.skills__subtitle', {}); sr.reveal('.skills__text', {}); sr.reveal('.skills__data', { interval: 200 }); sr.reveal('.skills__img', { delay: 600 }); sr.reveal('.work__img', { interval: 200 }); sr.reveal('.contact__input', { interval: 200 }); var form = document.forms.contact; form.addEventListener('submit', contact_submit, !1); function contact_submit(e) { e.preventDefault(); var target = e.target || e.srcElement; var to = 'mehr.m6534@gmial.com'; var uri = 'mailto:' + to; var body = ''; var name = target.elements.name.value; var subject = target.elements.subject.value; var email = target.elements.email.value; var message = target.elements.message.value; body += message + "\r\n\r\n"; body += "Name: " + name + "\r\n"; body += "Email: " + email + "\r\n"; uri += '?subject=' + encodeURIComponent(subject); uri += '&body=' + encodeURIComponent(body); window.open(uri, '_blank') 
+}`}
+</Script>
     </div>
   </>
   )
