@@ -1,8 +1,17 @@
 import Head from 'next/head'
 import Script from 'next/script'
+import { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal'
 
 
 export default function Home() {
+  useEffect(() => {
+    
+    ScrollReveal().reveal('.home__title', {
+        reset: true,
+        delay: 500
+      });
+  }, []);
 
   return (
 
@@ -17,7 +26,6 @@ export default function Home() {
         <meta property="og:title" content="مهرشاد مرادشان" />
         {/* <!-- ===style=== --> */}
         <link rel="icon" href="/favicon.ico" />
-        {/* <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> */}
       </Head>
       <div>
         {/*===== HEADER =====*/}
@@ -42,25 +50,71 @@ export default function Home() {
           <section className="home bd-grid" id="home">
             <div className="home__data">
               <h1 className="home__title"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1000">سلام<br /> <span className="home__title-color">مهرشاد مرادشان</span> هستم!<br />
+              // data-aos="fade-up"
+              // data-aos-easing="linear"
+              // data-aos-duration="1000"
+
+              >سلام<br /> <span className="home__title-color">مهرشاد مرادشان</span> هستم!<br />
                 طراح و توسعه دهنده وب</h1>
-              <a href="#contact" className="button" data-aos="fade-down"
-                data-aos-offset="200"
-                data-aos-delay="200"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
+              <a href="#contact" className="button"
+              // data-aos="fade-down"
+              // data-aos-offset="200"
+              // data-aos-delay="200"
+              // data-aos-duration="1000"
+              // data-aos-easing="ease-in-out"
               >ارتباط با من</a>
             </div>
-            <div className="home__social"> <a href="https://www.instagram.com/mehrshad_mod/" className="home__social-icon"><i className="bx bxl-instagram" /></a> <a href="https://api.whatsapp.com/send?phone=989168577669" className="home__social-icon"><i className="bx bxl-whatsapp" /></a> <a href="https://t.me/MoradShan" className="home__social-icon"><i className="bx bxl-telegram" /></a> <a href="https://github.com/Mehr34shad/" className="home__social-icon"><i className="bx bxl-github" /></a>
+            <div className="home__social">
+              <a href="https://www.instagram.com/mehrshad_mod/" className="home__social-icon"
+              // data-aos="fade-down"
+              // data-aos-offset="200"
+              // data-aos-delay="200"
+              // data-aos-duration="1000"
+              // data-aos-easing="ease-in-out"
+              >
+                <i className="bx bxl-instagram" />
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=989168577669" className="home__social-icon"
+
+              // data-aos="fade-down"
+              // data-aos-offset="200"
+              // data-aos-delay="300"
+              // data-aos-duration="1000"
+              // data-aos-easing="ease-in-out"
+
+              >
+                <i className="bx bxl-whatsapp" />
+              </a>
+              <a href="https://t.me/MoradShan" className="home__social-icon"
+
+              // data-aos="fade-down"
+              // data-aos-offset="200"
+              // data-aos-delay="400"
+              // data-aos-duration="1000"
+              // data-aos-easing="ease-in-out"
+
+              >
+
+                <i className="bx bxl-telegram" />
+              </a>
+              <a href="https://github.com/Mehr34shad/" className="home__social-icon"
+
+
+              // data-aos="fade-down"
+              // data-aos-offset="200"
+              // data-aos-delay="500"
+              // data-aos-duration="1000"
+              // data-aos-easing="ease-in-out"
+
+              >
+                <i className="bx bxl-github" />
+              </a>
             </div>
           </section>
           {/*===== ABOUT =====*/}
           <section id="about" className="about section">
-
             <h2
-              className="section-title" data-aos="fade-up">درباره من</h2>
+              className="section-title">درباره من</h2>
             <div className="about__container bd-grid">
               <div className="about__img"> <img src="/img/work1.jpg" alt="" /> </div>
               <div>
@@ -156,62 +210,39 @@ export default function Home() {
           <p>© تمامی حقوق مادی و معنوی این سایت متعلق به مهرشاد مرادشان می‌باشد.</p>
         </footer>
         <Script>
-          {`
-      
-const showMenu = (toggleId, navId) => {
-  const toggle = document.getElementById(toggleId)
-  const nav = document.getElementById(navId)
+          {`      
+            const showMenu = (toggleId, navId) => {
+              const toggle = document.getElementById(toggleId)
+              const nav = document.getElementById(navId)
 
-  if (toggle && nav) {
-      toggle.addEventListener('click', () => {
-          nav.classList.toggle('show')
-      })
-  }
-}
-showMenu('nav-toggle', 'nav-menu')
-
+              if (toggle && nav) {
+                  toggle.addEventListener('click', () => {
+                      nav.classList.toggle('show')
+                  })
+              }
+            }
+            showMenu('nav-toggle', 'nav-menu')
 
 
-const navLink = document.querySelectorAll('.nav__link');
 
-function linkAction() {
+            const navLink = document.querySelectorAll('.nav__link');
 
-  navLink.forEach(n => n.classList.remove('active'));
-  this.classList.add('active');
+            function linkAction() {
+
+              navLink.forEach(n => n.classList.remove('active'));
+              this.classList.add('active');
 
 
-  const navMenu = document.getElementById('nav-menu')
-  navMenu.classList.remove('show')
-}
-navLink.forEach(n => n.addEventListener('click', linkAction));
-
-`}
+              const navMenu = document.getElementById('nav-menu')
+              navMenu.classList.remove('show')
+            }
+            navLink.forEach(n => n.addEventListener('click', linkAction));
+            `}
         </Script>
-
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init()
-        </script>
-        <script>
-          {`
-        const sr = AOS({
-          origin: 'top',
-    distance: '80px',
-    duration: 2000,
-    reset: true
-});
-          `}
-          sr.(
-
-          offset: 120,
-          delay: 0,
-          duration: 400,
-          easing: 'ease',
-          once: false,
-          mirror: false,
-          anchorPlacement: 'top-bottom',
-          )
-        </script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        {/* <script>
+        ScrollReveal().reveal('.headline')
+        </script> */}
       </div>
     </>
   )
