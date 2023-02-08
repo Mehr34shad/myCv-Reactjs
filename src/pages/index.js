@@ -48,47 +48,47 @@ export default function Home() {
           <section className="home bd-grid" id="home">
             <div className="home__data">
               <h1 className="home__title"
-            data-aos="fade-down"
-            // data-aos-offset="200"
-            // data-aos-delay="300"
-            data-aos-duration="2000"
-            // data-aos-easing="ease-in-out"
+                data-aos="fade-down"
+                // data-aos-offset="200"
+                // data-aos-delay="300"
+                data-aos-duration="2000"
+              // data-aos-easing="ease-in-out"
 
               >سلام<br /> <span className="home__title-color">مهرشاد مرادشان</span> هستم!<br />
                 طراح و توسعه دهنده وب</h1>
               <a href="#contact" className="button"
-              data-aos="fade-down"
-              data-aos-offset="200"
-              data-aos-delay="400"
-              data-aos-duration="2000"
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-delay="400"
+                data-aos-duration="2000"
               // data-aos-easing="ease-in-out"
               >ارتباط با من</a>
             </div>
             <div className="home__social">
               <a href="https://www.instagram.com/mehrshad_mod/" className="home__social-icon"
-              data-aos="fade-down"
-              data-aos-delay="200"
-              data-aos-duration="2000"
-              data-aos-easing="ease-in-out"
+                data-aos="fade-down"
+                data-aos-delay="200"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-out"
               >
                 <i className="bx bxl-instagram" />
               </a>
               <a href="https://api.whatsapp.com/send?phone=989168577669" className="home__social-icon"
 
-              data-aos="fade-down"
-              data-aos-delay="300"
-              data-aos-duration="2000"
-              data-aos-easing="ease-in-out"
+                data-aos="fade-down"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-out"
 
               >
                 <i className="bx bxl-whatsapp" />
               </a>
               <a href="https://t.me/MoradShan" className="home__social-icon"
 
-              data-aos="fade-down"
-              data-aos-delay="400"
-              data-aos-duration="2000"
-              data-aos-easing="ease-in-out"
+                data-aos="fade-down"
+                data-aos-delay="400"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-out"
 
               >
 
@@ -97,10 +97,10 @@ export default function Home() {
               <a href="https://github.com/Mehr34shad/" className="home__social-icon"
 
 
-              data-aos="fade-down"
-              data-aos-delay="500"
-              data-aos-duration="2000"
-              data-aos-easing="ease-in-out"
+                data-aos="fade-down"
+                data-aos-delay="500"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-out"
 
               >
                 <i className="bx bxl-github" />
@@ -118,25 +118,25 @@ export default function Home() {
                 // data-aos-delay="400"
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out"
-              
+
               > <img src="/img/work1.jpg" alt="" /> </div>
               <div>
                 <h2 className="about__subtitle"
-                
-                data-aos="fade-down"
-                data-aos-offset="200"
-                data-aos-delay="400"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-out"
+
+                  data-aos="fade-down"
+                  data-aos-offset="200"
+                  data-aos-delay="400"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
 
                 >مهرشادم</h2>
                 <p className="about__text"
-                
-                data-aos="fade-down"
-                data-aos-offset="200"
-                data-aos-delay="400"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-out"
+
+                  data-aos="fade-down"
+                  data-aos-offset="200"
+                  data-aos-delay="400"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
                 >متولد 1378 ساکن اهواز،فعالیت در حوزه برنامه نویسی و آی تی رو از سال 1399
                   شروع کردم و با چالش های زیادی روبرو شدم و سابقه چند کار گروهی و انفرادی رو دارم و همیشه و هروز
                   در حال یادگیری هستم و این داستان ادامه داره....</p>
@@ -150,109 +150,109 @@ export default function Home() {
             <div className="skills__container bd-grid">
               <div>
                 <div className="skills__data"
-               data-aos="fade-down"
-               data-aos-delay="300"
-               data-aos-duration="2000"
-               data-aos-easing="ease-in-out"
+                  data-aos="fade-down"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
                 >
                   <div className="skills__names"> <i className="bx bxl-html5 skills__icon" /> <span className="skills__name">Html5</span> </div>
                   <div className="skills__bar skills__html"> </div>
                   <div> <span className="skills__percentage">90%</span> </div>
                 </div>
                 <div className="skills__data"
-                 data-aos="fade-down"
-                 data-aos-delay="300"
-                 data-aos-duration="2000"
-                 data-aos-easing="ease-in-out"
+                  data-aos="fade-down"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
                 >
                   <div className="skills__names"> <i className="bx bxl-css3 skills__icon" /> <span className="skills__name">Css3</span> </div>
                   <div className="skills__bar skills__css"> </div>
                   <div> <span className="skills__percentage">80%</span> </div>
                 </div>
                 <div className="skills__data"
-                
-                data-aos="fade-down"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-out"
+
+                  data-aos="fade-down"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
                 >
                   <div className="skills__names"> <i className="bx bxl-sass skills__icon" /> <span className="skills__name">Sass</span> </div>
                   <div className="skills__bar skills__sass"> </div>
                   <div> <span className="skills__percentage">85%</span> </div>
                 </div>
                 <div className="skills__data"
-                
-                data-aos="fade-down"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-out"
+
+                  data-aos="fade-down"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
                 >
                   <div className="skills__names"> <i className="bx bxl-javascript skills__icon" /> <span className="skills__name">JavaScript</span> </div>
                   <div className="skills__bar skills__js"> </div>
                   <div> <span className="skills__percentage">70%</span> </div>
                 </div>
                 <div className="skills__data"
-                      data-aos="fade-down"
-                      data-aos-delay="300"
-                      data-aos-duration="2000"
-                      data-aos-easing="ease-in-out"
-                
+                  data-aos="fade-down"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
+
                 >
                   <div className="skills__names"> <i className="bx bxl-jquery skills__icon" /> <span className="skills__name">JQuery</span> </div>
                   <div className="skills__bar skills__js"> </div>
                   <div> <span className="skills__percentage">65%</span> </div>
                 </div>
                 <div className="skills__data"
-                
-                data-aos="fade-down"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-out"
+
+                  data-aos="fade-down"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
                 >
                   <div className="skills__names"> <i className="bx bxl-react skills__icon" /> <span className="skills__name">ReactJs</span> </div>
                   <div className="skills__bar skills__js"> </div>
                   <div> <span className="skills__percentage">80%</span> </div>
                 </div>
                 <div className="skills__data"
-                      data-aos="fade-down"
-                      data-aos-delay="300"
-                      data-aos-duration="2000"
-                      data-aos-easing="ease-in-out"
-                
+                  data-aos="fade-down"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
+
                 >
                   <div className="skills__names"> <i className="bx bxl-nodejs skills__icon" /> <span className="skills__name">NextJs</span> </div>
                   <div className="skills__bar skills__js"> </div>
                   <div> <span className="skills__percentage">60%</span> </div>
                 </div>
                 <div className="skills__data"
-                      data-aos="fade-down"
-                      data-aos-delay="300"
-                      data-aos-duration="2000"
-                      data-aos-easing="ease-in-out"
-                
+                  data-aos="fade-down"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
+
                 >
                   <div className="skills__names"> <i className="bx bxs-paint skills__icon" /> <span className="skills__name">Material Ui</span> </div>
                   <div className="skills__bar skills__material"> </div>
                   <div> <span className="skills__percentage">80%</span> </div>
                 </div>
                 <div className="skills__data"
-                
-                data-aos="fade-down"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-out"
-                
+
+                  data-aos="fade-down"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
+
                 >
                   <div className="skills__names"> <i className="bx bxl-bootstrap skills__icon" /> <span className="skills__name">BootStrap</span> </div>
                   <div className="skills__bar skills__bootstrap"> </div>
                   <div> <span className="skills__percentage">85%</span> </div>
                 </div>
                 <div className="skills__data"
-                
-                data-aos="fade-down"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-out"
+
+                  data-aos="fade-down"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
                 >
                   <div className="skills__names"> <i className="bx bxl-wordpress skills__icon">
                   </i> <span className="skills__name">WordPress</span> </div>
@@ -261,11 +261,11 @@ export default function Home() {
                 </div>
               </div>
               <div> <img src="/img/work3.jpg" alt="" className="skills__img"
-              data-aos="fade-down"
-              data-aos-delay="600"
-              data-aos-duration="2000"
-              data-aos-easing="ease-in-out"
-              
+                data-aos="fade-down"
+                data-aos-delay="600"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-out"
+
               /> </div>
             </div>
           </section>
@@ -274,25 +274,25 @@ export default function Home() {
             <h2 className="section-title">نمونه کار های اخیر</h2>
             <div className="work__container bd-grid">
               <div className="work__img"
-              data-aos="fade-down"
+                data-aos="fade-down"
                 data-aos-delay="300"
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out"
-              
+
               > <img src="/img/work/work-1.png" alt="work-1" /> </div>
               <div className="work__img"
-              data-aos="fade-down"
-                data-aos-delay="300"
+                data-aos="fade-down"
+                data-aos-delay="400"
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out"
-              
+
               > <img src="/img/work/work-2.png" alt="work-2" /> </div>
               <div className="work__img"
-              data-aos="fade-down"
-                data-aos-delay="300"
+                data-aos="fade-down"
+                data-aos-delay="500"
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out"
-              
+
               > <img src="/img/work/work-3.png" alt="work-3" /> </div>
             </div>
           </section>
@@ -300,28 +300,29 @@ export default function Home() {
           <section className="contact section" id="contact">
             <h2 className="section-title">ارتباط با من</h2>
             <div className="contact__container bd-grid">
-              <form name="contact" method="post" className="contact__form"> <input type="text" placeholder="نام و نام خانوداگی" className="contact__input" name="name" 
-              
-              data-aos="fade-down"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-out"
-              
-              /> <input type="mail" name="email" placeholder="ایمیل شما" className="contact__input" 
-              
-              data-aos="fade-down"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-out"
-              
-              /> <textarea name="message" id cols={0} rows={10} placeholder="پیام شما..." className="contact__input" defaultValue={""} 
-              
-              data-aos="fade-down"
-                data-aos-delay="300"
-                data-aos-duration="2000"
-                data-aos-easing="ease-in-out"
-              
-              /> <input type="submit" name="send" defaultValue="ارسال پیام" className="contact__button button" /> </form>
+              <form name="contact" method="post" className="contact__form">
+                <input type="text" placeholder="نام و نام خانوداگی" className="contact__input" name="name"
+                  data-aos="fade-down"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
+
+                />
+                <input type="mail" name="email" placeholder="ایمیل شما" className="contact__input"
+
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
+                />
+                <textarea name="message" id cols={0} rows={10} placeholder="پیام شما..." className="contact__input" defaultValue={""}
+                  data-aos="fade-down"
+                  data-aos-delay="500"
+                  data-aos-duration="2000"
+                  data-aos-easing="ease-in-out"
+                />
+                <input type="submit" name="send" defaultValue="ارسال پیام" className="contact__button button" />
+              </form>
             </div>
           </section>
         </main>
@@ -362,9 +363,9 @@ export default function Home() {
             `}
         </Script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+        <script>
+          AOS.init();
+        </script>
         {/* <script>
         ScrollReveal().reveal('.headline')
         </script> */}
