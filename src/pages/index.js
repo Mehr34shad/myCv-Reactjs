@@ -5,10 +5,6 @@ import { useEffect } from 'react';
 
 
 export default function Home() {
-  //   useEffect(() => {
-
-  //     sr.reveal('.button', { delay: 200 });
-  // }, []);
 
   return (
 
