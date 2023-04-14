@@ -1,10 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
-import Script from "next/script";
 import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 // import sr from 'scrollreveal';
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <Head>
@@ -546,15 +551,8 @@ export default function Home() {
             navLink.forEach(n => n.addEventListener('click', linkAction));
             `}
         </Script> */}
-        {/* <Script
-          src="https://unpkg.com/aos@next/dist/aos.js"
-          onLoad={() => {
-            console.log("Script has loaded");
-          }}
-          nonce="XUENAJFW"
-          data-test="script"
-        /> */}
-        <script>AOS.init();</script>
+
+        {/* <script>AOS.init();</script> */}
       </div>
     </>
   );
