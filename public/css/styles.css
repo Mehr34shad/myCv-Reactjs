@@ -238,10 +238,10 @@ img {
 .about__img {
   justify-self: center;
 }
-.about__img img {
+/* .about__img img {
   width: 200px;
   border-radius: 0.5rem;
-}
+} */
 .skills__container {
   row-gap: 2rem;
   text-align: center;

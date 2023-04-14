@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image';
 import Script from 'next/script'
 import { useEffect } from 'react';
 // import sr from 'scrollreveal';
@@ -115,7 +116,7 @@ export default function Home() {
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out"
 
-              > <img src="/img/work1.jpg" alt="" /> </div>
+              > <Image src="/img/work1.jpg" alt="" width={400} height={400} /> </div>
               <div>
                 <h2 className="about__subtitle"
 
@@ -256,7 +257,9 @@ export default function Home() {
                   <div> <span className="skills__percentage">75%</span> </div>
                 </div>
               </div>
-              <div> <img src="/img/work3.jpg" alt="" className="skills__img"
+              <div> <Image src="/img/work3.jpg" alt="" className="skills__img"
+              width={400}
+              height={400}
                 data-aos="fade-down"
                 data-aos-delay="600"
                 data-aos-duration="2000"
@@ -275,21 +278,21 @@ export default function Home() {
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out"
 
-              > <img src="/img/work/work-1.png" alt="work-1" /> </div>
+              > <Image width={400} height={400} src="/img/work/work-1.png" alt="work-1" /> </div>
               <div className="work__img"
                 data-aos="fade-down"
                 data-aos-delay="400"
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out"
 
-              > <img src="/img/work/work-2.png" alt="work-2" /> </div>
+              > <Image width={400} height={400} src="/img/work/work-2.png" alt="work-2" /> </div>
               <div className="work__img"
                 data-aos="fade-down"
                 data-aos-delay="500"
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out"
 
-              > <img src="/img/work/work-3.png" alt="work-3" /> </div>
+              > <Image width={400} height={400} src="/img/work/work-3.png" alt="work-3" /> </div>
             </div>
           </section>
           {/*===== CONTACT =====*/}
