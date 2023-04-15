@@ -446,6 +446,37 @@ export default function Home() {
                   alt="work-3"
                 />{" "}
               </div>
+              <div
+                className="work__img"
+                data-aos="fade-down"
+                data-aos-delay="500"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-out"
+              >
+                {" "}
+                <Image
+                  width={400}
+                  height={400}
+                  src="/img/work/binandeh.png"
+                  alt="mohamadbinandeh"
+                  link="mohamadbinandeh.ir"
+                />{" "}
+              </div>
+              <div
+                className="work__img"
+                data-aos="fade-down"
+                data-aos-delay="500"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-out"
+              >
+                {" "}
+                <Image
+                  width={400}
+                  height={400}
+                  src="/img/work/movie.png"
+                  alt="movie"
+                />{" "}
+              </div>
             </div>
           </section>
           {/*===== CONTACT =====*/}
