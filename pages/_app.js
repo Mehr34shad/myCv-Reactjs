@@ -1,5 +1,7 @@
 import "../public/css/boxicons.min.css";
+import "aos/dist/aos.css";
 import "../public/css/styles.css";
+
 
 export default function App({ Component, pageProps }) {
   return (

@@ -55,8 +55,7 @@
   box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;
-  /* direction: rtl; */
+  scroll-behavior: smooth !important;
 }
 body {
   margin: var(--header-height) 0 0 0;
@@ -99,7 +98,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--second-color);
 }
 .section {
   padding-top: 3rem;
@@ -359,7 +358,7 @@ img {
   padding: 2rem 0;
 }
 .footer__title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: var(--mb-4);
 }
 .footer__social {
