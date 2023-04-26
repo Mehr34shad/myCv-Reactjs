@@ -98,7 +98,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--second-color);
+  background-color: var(--first-color);
 }
 .section {
   padding-top: 3rem;

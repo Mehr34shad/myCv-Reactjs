@@ -39,9 +39,9 @@ export default function Home() {
           value="Mehrshad Moradshan | مهرشاد مرادشان"
         />
         <meta name="author" content="مرادشان" />
+        <meta name="google-site-verification" content="K8_-5TCYB8Pbu0zQfB0QHri4VlCB5CwNqwgIz_aQVNA" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>hello start from index.js</h1>
       {/* <Layout>  */}
       <Header />
       <main className="l-main">

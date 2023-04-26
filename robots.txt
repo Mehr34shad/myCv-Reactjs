@@ -1,0 +1,4 @@
+# start of file
+user-agent: *
+disallow: /downloads/
+sitemap: https://mehrshad-moradshan.ir/sitemap.xml
