@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Layout from "../Layout";
+
 
 const Header = () => {
   const pages = [
@@ -29,7 +29,6 @@ const Header = () => {
             ))}
           </ul>
         </div>
-        <Layout/>
       </nav>
     </header>
   );

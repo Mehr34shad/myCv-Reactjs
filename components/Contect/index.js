@@ -7,7 +7,7 @@ const Contect = () => {
       <form name="contact" method="post" className="contact__form">
         <input
           type="text"
-          placeholder="نام و نام خانوداگی"
+          placeholder="نام و نام خانوادگی"
           className="contact__input"
           name="name"
           data-aos="fade-down"

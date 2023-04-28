@@ -8,19 +8,12 @@ import Skill from "./../components/Skill/index";
 import About from "../components/About";
 import Header from "../components/Header";
 import Aos from "aos";
-import Layout from "../components/Layout";
 
 export default function Home() {
   useEffect(() => {
     Aos.init();
     Aos.refresh();
   }, []);
-  // useEffect(() => {
-  //   AOS.init({
-  //     duration: 1200,
-  //     easing: "ease-in-out-cubic",
-  //   });
-  // }, []);
   return (
     <Fragment>
       <Head>
@@ -44,7 +37,6 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Layout>  */}
       <Header />
       <main className="l-main">
         <Hero />
@@ -54,7 +46,6 @@ export default function Home() {
         <Contect />
       </main>
       <Footer />
-      {/* </Layout>  */}
     </Fragment>
   );
 }
