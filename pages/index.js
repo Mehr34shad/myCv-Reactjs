@@ -32,7 +32,10 @@ export default function Home() {
           value="Mehrshad Moradshan | مهرشاد مرادشان"
         />
         <meta property="og:type" content="website" />
-        <meta name="author" content="مرادشان" />
+        <meta name="author" content="مرادشان , mehr.m6534@gmail.com" />
+        <meta name="designer" content="Mehrshad_moradshan" />
+        <meta name="copyright" content="Mehrshad_moradshan" />
+        <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="K8_-5TCYB8Pbu0zQfB0QHri4VlCB5CwNqwgIz_aQVNA" />
         <link rel="manifest" href="/manifest.json"/>
         <link rel="icon" href="/favicon.ico" />

@@ -4,9 +4,18 @@
   "description": "مهرشاد مرادشان",
   "icons": [
     {
-     
-      "src": "./assets/img/apple-touch-icon.png",
-      "sizes": "50x50",
+      "src": "./assets/img/icons16",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/icons32",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/img/icons96",
+      "sizes": "96x96",
       "type": "image/png"
     }
   ],

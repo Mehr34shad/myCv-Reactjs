@@ -1,21 +1,7 @@
-import Link from "next/link";
 import React from "react";
 
 function Hero() {
-  // const socailMedia = [
-  //   {
-  //     icon: "bx bxl-instagram",
-  //     link: "https://www.instagram.com/mehrshad_mod",
-  //     text: "Instagram",
-  //   },
-  //   {
-  //     icon: "bx bxl-whatsapp",
-  //     link: "https://api.whatsapp.com/send?phone=989168577669",
-  //     text: "WhatsApp",
-  //   },
-  //   { icon: "bx bxl-telegram", link: "https://t.me/MoradShan", text: "Telegram" },
-  //   { icon: "bx bxl-github", link: "https://github.com/Mehr34shad", text: "GitHub" },
-  // ];
+
   return (
     <section className="home bd-grid" id="home">
       <div className="home__data">
@@ -41,19 +27,6 @@ function Hero() {
         </a>
       </div>
       <div className="home__social" >
-      {/* {socailMedia.map((media, index) => (
-              <Link
-              key={index}
-              href={media.link}
-              className="home__social-icon"
-              data-aos="fade-down"
-              data-aos-delay="200"
-              data-aos-duration="2000"
-              data-aos-easing="ease-in-out"
-            >
-              <i className={media.icon} />
-            </Link>
-      ))} */}
         <a
           href="https://www.instagram.com/mehrshad_mod"
           className="home__social-icon"
