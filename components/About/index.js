@@ -23,7 +23,7 @@ const About = () => {
         />{" "}
       </div>
       <div>
-        <h2
+        {/* <h2
           className="about__subtitle"
           data-aos="fade-down"
           data-aos-offset="200"
@@ -32,7 +32,7 @@ const About = () => {
           data-aos-easing="ease-in-out"
         >
           مهرشادم
-        </h2>
+        </h2> */}
         <p
           className="about__text"
           data-aos="fade-down"
@@ -41,10 +41,11 @@ const About = () => {
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
         >
-          متولد 1378 ساکن اهواز،فعالیت در حوزه برنامه نویسی و آی تی رو
+           مهرشاد مرادشان هستم دانشجوی مهندسی کامپیوتر ساکن اهواز،فعالیت در حوزه برنامه نویسی و آی تی رو
           از سال 1399 شروع کردم و با چالش های زیادی روبرو شدم و سابقه
           چند کار گروهی و انفرادی رو دارم و همیشه و هروز در حال یادگیری
           هستم و این داستان ادامه داره....
+
         </p>
       </div>
     </div>

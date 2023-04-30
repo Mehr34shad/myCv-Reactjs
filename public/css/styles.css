@@ -202,7 +202,9 @@ img {
 }
 .home__social-icon {
   width: max-content;
-  margin-bottom: var(--mb-3);
+  /* margin: 0 !important; */
+  margin-top: -5rem;
+  /* margin-top: var(--mb-1); */
   font-size: 1.5rem;
   color: var(--second-color);
 }
@@ -417,6 +419,7 @@ img {
   .home__social-icon {
     margin-bottom: 0;
     margin-right: var(--mb-4);
+    margin-top: 3rem;
   }
   .home__img {
     width: 457px;

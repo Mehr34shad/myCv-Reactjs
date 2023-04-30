@@ -29,6 +29,9 @@ const Header = () => {
             ))}
           </ul>
         </div>
+        <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
       </nav>
     </header>
   );
